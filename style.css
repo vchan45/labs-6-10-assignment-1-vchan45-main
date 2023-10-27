@@ -17,6 +17,17 @@ p, blockquote, pre {
     background-color: #550055;
 }
 
+img {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+th, td {
+    border: .25em solid #ffee99;
+    
+}
+
 /* start navigation */
 
 nav ul {
