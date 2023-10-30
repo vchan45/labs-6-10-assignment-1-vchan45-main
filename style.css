@@ -18,14 +18,13 @@ p, blockquote, pre {
 }
 
 img {
-    width: 25%;
+    width: 8%;
     height: auto;
     float: left;
 }
 
 th, td {
     border: .25em solid #ffee99;
-    
 }
 
 /* start navigation */
