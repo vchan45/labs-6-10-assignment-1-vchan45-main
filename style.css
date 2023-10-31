@@ -42,14 +42,6 @@ nav ul li {
     float: left;
 }
 
-nav ul li a {
-    display: block;
-    color: #00ff00;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
 nav ul li a:hover:not(.active) {
     background-color: #997711;
 }
