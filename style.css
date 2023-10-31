@@ -5,20 +5,23 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
 }
+
 pre {
     white-space: pre-wrap;
 }
+
 h1 {
     text-align: center;
     text-transform: uppercase;
     color: #ffff00;
 }
+
 p, blockquote, pre {
     background-color: #550055;
 }
 
 img {
-    width: 8%;
+    width: 40%;
     height: auto;
     float: left;
 }
