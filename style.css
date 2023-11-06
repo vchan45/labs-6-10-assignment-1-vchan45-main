@@ -20,16 +20,6 @@ p, blockquote, pre {
     background-color: #550055;
 }
 
-img {
-    width: 40%;
-    height: auto;
-    float: left;
-}
-
-th, td {
-    border: .25em solid #ffee99;
-}
-
 /* start navigation */
 
 nav ul {
@@ -64,3 +54,28 @@ nav ul li.right {
 }
 
 /* end navigation */
+
+/* Lab 8 */
+
+img {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+th, td {
+    border: .25em solid #ffee99;
+    padding: .5em;
+}
+
+<p id="about">
+
+p#about {
+    margin-left: 5em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
