@@ -1,7 +1,7 @@
 /* Victor Chan 301307184 */
 body {
-    background-color: #ff0000;
-    color: #00ffff;
+    background-color: #00aaaa;
+    color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
 }
@@ -13,11 +13,11 @@ pre {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    color: #ffff00;
+    color: #ff0000;
 }
 
 p, blockquote, pre {
-    background-color: #550055;
+    background-color: #dddddd;
 }
 
 /* start navigation */
@@ -27,21 +27,30 @@ nav ul {
     padding: 0px 0px;
     margin: 0px 0px 0px 0px;
     overflow: hidden;
-    background-color: #880088;
-    border-radius: 10px;
+    background-color: #000000;
+    border-radius: 5px;
 }
 
 nav ul li {
     float: left;
 }
 
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 nav ul li a:hover:not(.active) {
-    background-color: #997711;
+    background-color: #ffff00;
+    color: #000;
 }
 
 nav ul li a.active {
-    background-color: #bcce1e;
-    color: #000000;
+    background-color: #0000ff;
+    color: #ffffff;
 }
 
 nav ul li.right {
@@ -58,24 +67,20 @@ nav ul li.right {
 /* Lab 8 */
 
 img {
-    width: 40%;
+    width: 20%;
     height: auto;
     float: left;
+    margin-right: 2em;
 }
 
-th, td {
-    border: .25em solid #ffee99;
-    padding: .5em;
-}
-
-<p id="about">
-
-p#about {
-    margin-left: 5em;
-}
+p#about {margin-left: 5em;}
 
 table {
     margin-left: auto;
     margin-right: auto;
 }
 
+th, td {
+    border: .25em dashed #00aaaa;
+    padding: .5em;
+}
